@@ -1,10 +1,11 @@
 {
-    "name": "dank00/php-app",
-    "description": "bootstrap a php project",
+    "name": "space48/magento2-fat-flag-data",
+    "description": "Modify flag table to accommodate big config snapshot",
+    "type": "magento2-module",
     "authors": [
         {
             "name": "dank00",
-            "email": "dankenny251@gmail.com"
+            "email": "dan.kenny@space48.com"
         }
     ],
     "scripts": {
@@ -15,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Your\\Project\\": "src",
-            "Your\\Project\\Test\\": "test"
+            "Space48\\FatFlagData\\": "src",
+            "Space48\\FatFlagData\\Test\\": "test"
         }
     }
 }
