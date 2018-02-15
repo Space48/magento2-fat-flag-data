@@ -19,5 +19,14 @@
             "Space48\\FatFlagData\\": "src",
             "Space48\\FatFlagData\\Test\\": "test"
         }
+    },
+    "repositories": {
+        "magento": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
+    "require": {
+        "magento/framework": "^101.0"
     }
 }
